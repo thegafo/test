@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Cool Landing Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(270deg, #1e90ff, #00bfff, #1e90ff);
+            background-size: 600% 600%;
+            animation: gradientAnimation 15s ease infinite;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 2rem;
+        }
+        @keyframes gradientAnimation {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        h1 {
+            font-weight: 600;
+            font-size: 3rem;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+        p {
+            font-weight: 300;
+            font-size: 1.2rem;
+            max-width: 600px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            margin-bottom: 2em;
+        }
+        a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            border: 2px solid #00aaff;
+            padding: 0.5em 1.5em;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+        }
+        a:hover {
+            background-color: #00aaff;
+            color: #fff;
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.9rem;
+            color: #e0e0e0;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>Welcome to the Cool Zone! We are passionate about creating awesome web experiences that inspire and engage. Our mission is to deliver innovative solutions and top-notch designs to make your online presence shine.</p>
+    <p>Founded in 2024, Cool Company has rapidly grown to become a leader in web creativity and user engagement. We believe in the power of great design and seamless functionality to make every visitor feel welcome.</p>
+    <a href="index.html">Back to Home</a>
+    <footer>© 2024 Cool Company</footer>
+</body>
+</html>
