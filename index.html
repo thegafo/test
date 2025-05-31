@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Landing Page</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-        body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #00bfff, #1e90ff);
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        h1 {
-            font-weight: 600;
-            font-size: 4rem;
-            margin-bottom: 0.2em;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-        }
-        p {
-            font-weight: 300;
-            font-size: 1.5rem;
-            margin-bottom: 1.5em;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-        }
-        button {
-            background-color: #00aaff;
-            border: none;
-            border-radius: 25px;
-            padding: 0.75em 2em;
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: white;
-            cursor: pointer;
-            box-shadow: 0 5px 15px rgba(0,170,255,0.4);
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-        button:hover {
-            background-color: #008ecc;
-            transform: scale(1.1);
-        }
-        footer {
-            position: absolute;
-            bottom: 10px;
-            font-size: 0.9rem;
-            color: #e0e0e0;
-            user-select: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cool Landing Page</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #00bfff, #1e90ff);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 4rem;
+      margin-bottom: 0.2em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    p {
+      font-weight: 300;
+      font-size: 1.5rem;
+      margin-bottom: 1.5em;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      max-width: 360px;
+      line-height: 1.4;
+    }
+    button {
+      background-color: #00aaff;
+      border: none;
+      border-radius: 25px;
+      padding: 0.75em 2em;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0, 170, 255, 0.4);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    button:hover {
+      background-color: #008ecc;
+      transform: scale(1.1);
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9rem;
+      color: #e0e0e0;
+      user-select: none;
+    }
+  </style>
 </head>
 <body>
+  <main>
     <h1>Welcome to the Cool Zone</h1>
     <p>Your one-stop destination for awesome web experiences.</p>
     <button onclick="alert('You found the cool button!')">Click Me!</button>
-    <footer>© 2024 Cool Company</footer>
+  </main>
+  <footer>© 2024 Cool Company</footer>
 </body>
 </html>
