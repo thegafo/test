@@ -6,18 +6,34 @@
     <title>Move the Ball</title>
     <style>
         body { margin: 0; }
-        canvas { display: block; }
+        canvas { display: block; outline: none; }
     </style>
 </head>
 <body>
+    <main tabindex="0" aria-label="Interactive 3D Ball Canvas" id="main-content">
+        <noscript>
+            <p>This interactive ball simulation requires JavaScript to be enabled.</p>
+        </noscript>
+    </main>
+    <div id="instructions" style="position: absolute; left: 10px; top: 10px; background: rgba(255,255,255,0.8); padding: 8px; border-radius: 6px; font-family: sans-serif; max-width: 300px; z-index: 10;" aria-live="polite">
+        <strong>Move the Ball!</strong><br />
+        Use <kbd>W</kbd>/<kbd>↑</kbd>, <kbd>A</kbd>/<kbd>←</kbd>, <kbd>S</kbd>/<kbd>↓</kbd>, <kbd>D</kbd>/<kbd>→</kbd> keys.<br/>
+        <span id="ball-pos" aria-relevant="all">Ball position: X 0, Y 0</span>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script>
         // Scene setup
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        const renderer = new THREE.WebGLRenderer();
+        const renderer = new THREE.WebGLRenderer({
+            antialias: true
+        });
         renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
+        renderer.domElement.setAttribute('tabindex', '0');
+        renderer.domElement.setAttribute('role', 'img');
+        renderer.domElement.setAttribute('aria-label', '3D interactive scene showing a green ball');
+        renderer.domElement.setAttribute('aria-live', 'polite');
+        document.getElementById('main-content').appendChild(renderer.domElement);
 
         // Ball (Sphere)
         const geometry = new THREE.SphereGeometry(1, 32, 32);
@@ -38,35 +54,57 @@
         const moveSpeed = 0.1;
         const keys = {};
 
-        // Event listeners for keyboard input
-        window.addEventListener('keydown', (event) => {
-            keys[event.key.toLowerCase()] = true;
+        // Focus canvas on page load to allow keyboard input
+        window.addEventListener('DOMContentLoaded', () => {
+            renderer.domElement.focus();
+        });
+        document.getElementById('main-content').addEventListener('click', function(){
+            renderer.domElement.focus();
         });
 
-        window.addEventListener('keyup', (event) => {
+        // Event listeners for keyboard input (use canvas focus)
+        renderer.domElement.addEventListener('keydown', (event) => {
+            keys[event.key.toLowerCase()] = true;
+        });
+        renderer.domElement.addEventListener('keyup', (event) => {
             keys[event.key.toLowerCase()] = false;
         });
+        
+        // For screen reader: update element with ball's position
+        function updateBallPos() {
+            const x = ball.position.x.toFixed(2);
+            const y = ball.position.y.toFixed(2);
+            document.getElementById('ball-pos').textContent = `Ball position: X ${x}, Y ${y}`;
+        }
 
         // Animation loop
         function animate() {
             requestAnimationFrame(animate);
 
             // Move the ball based on pressed keys
+            let moved = false;
             if (keys['w'] || keys['arrowup']) {
                 ball.position.y += moveSpeed;
+                moved = true;
             }
             if (keys['s'] || keys['arrowdown']) {
                 ball.position.y -= moveSpeed;
+                moved = true;
             }
             if (keys['a'] || keys['arrowleft']) {
                 ball.position.x -= moveSpeed;
+                moved = true;
             }
             if (keys['d'] || keys['arrowright']) {
                 ball.position.x += moveSpeed;
+                moved = true;
             }
-
+            if (moved) updateBallPos();
             renderer.render(scene, camera);
         }
+
+        // Initial announce
+        updateBallPos();
 
         // Handle window resize
         window.addEventListener('resize', () => {
