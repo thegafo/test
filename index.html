@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move the Ball</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // Scene setup
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // Ball (Sphere)
+        const geometry = new THREE.SphereGeometry(1, 32, 32);
+        const material = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
+        const ball = new THREE.Mesh(geometry, material);
+        scene.add(ball);
+
+        // Lighting
+        const ambientLight = new THREE.AmbientLight(0x404040); // soft white light
+        scene.add(ambientLight);
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+        directionalLight.position.set(5, 5, 5);
+        scene.add(directionalLight);
+
+        camera.position.z = 5;
+
+        // Movement variables
+        const moveSpeed = 0.1;
+        const keys = {};
+
+        // Event listeners for keyboard input
+        window.addEventListener('keydown', (event) => {
+            keys[event.key.toLowerCase()] = true;
+        });
+
+        window.addEventListener('keyup', (event) => {
+            keys[event.key.toLowerCase()] = false;
+        });
+
+        // Animation loop
+        function animate() {
+            requestAnimationFrame(animate);
+
+            // Move the ball based on pressed keys
+            if (keys['w'] || keys['arrowup']) {
+                ball.position.y += moveSpeed;
+            }
+            if (keys['s'] || keys['arrowdown']) {
+                ball.position.y -= moveSpeed;
+            }
+            if (keys['a'] || keys['arrowleft']) {
+                ball.position.x -= moveSpeed;
+            }
+            if (keys['d'] || keys['arrowright']) {
+                ball.position.x += moveSpeed;
+            }
+
+            renderer.render(scene, camera);
+        }
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        animate();
+    </script>
+</body>
+</html>
