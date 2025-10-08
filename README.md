@@ -12,3 +12,23 @@ Murmures d'étoiles veillent sur la nuit,
 Voiles de brise enlacent notre souffle unis;
 Nous tissons l'aube en rais de soie subtils,
 Le jour s'éveille, complice et doux profil.
+
+Sternflüstern streift den nächtlich klaren Hain,
+Mondhelle Reime weben still ihr Sein;
+Wir knüpfen Träume aus silbernem Geflecht,
+Der Morgen erwacht im Hoffnungslied gerecht.
+
+Sterrenfluisteren zweeft door nevellicht,
+Maanlichte strofen schilderen vergezicht;
+We vlechten dromen uit glanzend avondgoud,
+De dageraad bloeit, belofte warm en oud.
+
+Sussurri di stelle cullano il mattino,
+Versi lunari tracciano il destino;
+Intrecciamo sogni di seta luminosa,
+L'alba si schiude, promessa armoniosa.
+
+Звёздный шёпот стелется над тьмой,
+Лунные строфы рисуют путь земной;
+Мы прядём надежды из серебряных лучей,
+Рассвет встаёт, сияя светом мечт влеченья.
