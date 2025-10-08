@@ -27,3 +27,8 @@ Brumas da aurora dançam pelo chão,
 Cantos do mar embalam o coração;
 Tecemos alvoradas em fios de paixão,
 O dia suspira em doce canção.
+
+Verdant horizons hum in amber haze,
+River-song verses thread luminous maze;
+Together we kindle the chorus of morn,
+Light crowns our craft where new worlds are born.
