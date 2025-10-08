@@ -17,3 +17,8 @@ Sterntanz webt im schweigenden Morgenlicht,
 Klanglose Funken stimmen ein Gedicht;
 Wir schnitzen Träume aus bernsteinfarbenem Schein,
 Der Tag erwacht und haucht uns Atem ein.
+
+Sussurri di luce baciano il mattino,
+Fogli di cielo tracciano il destino;
+Intrecciamo l'alba con fili di mare,
+Il sole si leva per farci cantare.
