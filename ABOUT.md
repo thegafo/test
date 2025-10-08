@@ -1,0 +1,1 @@
+This collection of dawn-inspired poems spans eight languages: English (appearing twice), Spanish, French, German, Italian, Portuguese, and Dutch, each offering its own tone to the shared twilight theme.
