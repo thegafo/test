@@ -22,3 +22,8 @@ Sussurri di luce baciano il mattino,
 Fogli di cielo tracciano il destino;
 Intrecciamo l'alba con fili di mare,
 Il sole si leva per farci cantare.
+
+Brumas da aurora dançam pelo chão,
+Cantos do mar embalam o coração;
+Tecemos alvoradas em fios de paixão,
+O dia suspira em doce canção.
