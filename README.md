@@ -13,7 +13,7 @@ Voiles de brise enlacent notre souffle unis;
 Nous tissons l'aube en rais de soie subtils,
 Le jour s'éveille, complice et doux profil.
 
-星河低语洒落在纸笺，
-月影浮光轻染远山烟；
-指尖织梦引风成曲，
-拂晓悠然共听松泉。
+星のささやき紙に降りそそぎ、
+月影やわらかく山を染めて；
+指先の夢は風を歌に変え、
+暁ゆるやか泉の声を聴く。
