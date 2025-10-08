@@ -17,3 +17,8 @@ Sternflüstern streift den nächtlich klaren Hain,
 Mondhelle Reime weben still ihr Sein;
 Wir knüpfen Träume aus silbernem Geflecht,
 Der Morgen erwacht im Hoffnungslied gerecht.
+
+Sterrenfluisteren zweeft door nevellicht,
+Maanlichte strofen schilderen vergezicht;
+We vlechten dromen uit glanzend avondgoud,
+De dageraad bloeit, belofte warm en oud.
