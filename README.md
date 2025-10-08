@@ -12,3 +12,8 @@ Murmures d'étoiles veillent sur la nuit,
 Voiles de brise enlacent notre souffle unis;
 Nous tissons l'aube en rais de soie subtils,
 Le jour s'éveille, complice et doux profil.
+
+Sternflüstern streift den nächtlich klaren Hain,
+Mondhelle Reime weben still ihr Sein;
+Wir knüpfen Träume aus silbernem Geflecht,
+Der Morgen erwacht im Hoffnungslied gerecht.
