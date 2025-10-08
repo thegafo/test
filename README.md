@@ -12,3 +12,8 @@ Murmures d'étoiles veillent sur la nuit,
 Voiles de brise enlacent notre souffle unis;
 Nous tissons l'aube en rais de soie subtils,
 Le jour s'éveille, complice et doux profil.
+
+星河低语洒落在纸笺，
+月影浮光轻染远山烟；
+指尖织梦引风成曲，
+拂晓悠然共听松泉。
