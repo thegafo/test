@@ -12,3 +12,13 @@ Murmures d'étoiles veillent sur la nuit,
 Voiles de brise enlacent notre souffle unis;
 Nous tissons l'aube en rais de soie subtils,
 Le jour s'éveille, complice et doux profil.
+
+Sussurri di stelle cullano il mattino,
+Lune di seta disegnano il cammino;
+Intrecciamo l'alba con fili di ardore,
+Il giorno sboccia in petali di colore.
+
+Flüsternde Sterne zeichnen unseren Pfad,
+Silberne Schleier halten still die Nacht parat;
+Wir flechten den Morgen aus Träumen und Licht,
+Der Tag erwacht, ein leise lächelndes Gesicht.
