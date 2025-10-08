@@ -22,3 +22,8 @@ Sterrenfluisteren zweeft door nevellicht,
 Maanlichte strofen schilderen vergezicht;
 We vlechten dromen uit glanzend avondgoud,
 De dageraad bloeit, belofte warm en oud.
+
+Sussurri di stelle cullano il mattino,
+Versi lunari tracciano il destino;
+Intrecciamo sogni di seta luminosa,
+L'alba si schiude, promessa armoniosa.
