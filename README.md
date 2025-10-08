@@ -27,3 +27,8 @@ Sussurri di stelle cullano il mattino,
 Versi lunari tracciano il destino;
 Intrecciamo sogni di seta luminosa,
 L'alba si schiude, promessa armoniosa.
+
+Звёздный шёпот стелется над тьмой,
+Лунные строфы рисуют путь земной;
+Мы прядём надежды из серебряных лучей,
+Рассвет встаёт, сияя светом мечт влеченья.
