@@ -12,3 +12,8 @@ Murmures d'étoiles veillent sur la nuit,
 Voiles de brise enlacent notre souffle unis;
 Nous tissons l'aube en rais de soie subtils,
 Le jour s'éveille, complice et doux profil.
+
+星のささやき紙に降りそそぎ、
+月影やわらかく山を染めて；
+指先の夢は風を歌に変え、
+暁ゆるやか泉の声を聴く。
