@@ -27,3 +27,8 @@ Segredos de estrelas sussurram no cais,
 Ventos de jasmim guardam sonhos reais;
 Tecemos a aurora com fios de calor,
 O dia floresce em brumas de amor.
+
+星のささやきが宵を渡り、
+霞む灯りが願いを語り;
+暁を紡ぎし繭のぬくもり、
+新しき日が静かに息づく.
