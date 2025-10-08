@@ -32,3 +32,8 @@ Verdant horizons hum in amber haze,
 River-song verses thread luminous maze;
 Together we kindle the chorus of morn,
 Light crowns our craft where new worlds are born.
+
+Sterrenfluister dansen in de dageraad,
+Bloesems van stilte weven zacht draad;
+Samen smeden wij het lied van licht,
+De dag ontvouwt zijn glans in eerlijk zicht.
