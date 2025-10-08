@@ -12,3 +12,8 @@ Murmures d'étoiles veillent sur la nuit,
 Voiles de brise enlacent notre souffle unis;
 Nous tissons l'aube en rais de soie subtils,
 Le jour s'éveille, complice et doux profil.
+
+Sterntanz webt im schweigenden Morgenlicht,
+Klanglose Funken stimmen ein Gedicht;
+Wir schnitzen Träume aus bernsteinfarbenem Schein,
+Der Tag erwacht und haucht uns Atem ein.
