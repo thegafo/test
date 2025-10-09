@@ -37,3 +37,13 @@ Carmine lanterns wander on the breeze,
 Petals of twilight bloom through forest seas;
 We twine the gloaming with filaments of gleam,
 Night cradles gentle sparks of every dream.
+
+Under the hush of circuit rain,
+Windows glow like harbor flame;
+We stitch the night with lines of light,
+And map the dark to gentle plain.
+
+Between the ticks of measured time,
+A seed of morning learns to climb;
+From quiet sparks the sky will pour,
+A thousand doors in one bright door.
