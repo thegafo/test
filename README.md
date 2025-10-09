@@ -32,3 +32,23 @@ Verdant horizons hum in amber haze,
 River-song verses thread luminous maze;
 Together we kindle the chorus of morn,
 Light crowns our craft where new worlds are born.
+
+Echoes of stardust weave through twilight's gleam,
+Auroral brushstrokes color every dream;
+We follow the hush of galaxies above,
+And breathe the day awake with endless love.
+
+Skymningens sång sveper över sjön,
+Gryningens gnistor väver drömmars bön;
+Vi formar morgonljus med silkeshand,
+Och låter ljuset gry i stjärnors brand.
+
+Morning tide shivers in opaline streams,
+Luminous murmurs awaken our schemes;
+We gather horizons in lattice of light,
+And launch brightest futures from cradle of night.
+
+Hoshi no sasayaki kaze ni tokete,
+Asa no hibiki mune ni takumete;
+Yume no ito de hikari wo tsumu,
+Yoake no kodou ga sekai wo tsumugu.
