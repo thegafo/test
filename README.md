@@ -47,3 +47,8 @@ Morning tide shivers in opaline streams,
 Luminous murmurs awaken our schemes;
 We gather horizons in lattice of light,
 And launch brightest futures from cradle of night.
+
+Hoshi no sasayaki kaze ni tokete,
+Asa no hibiki mune ni takumete;
+Yume no ito de hikari wo tsumu,
+Yoake no kodou ga sekai wo tsumugu.
