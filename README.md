@@ -42,3 +42,8 @@ Skymningens sång sveper över sjön,
 Gryningens gnistor väver drömmars bön;
 Vi formar morgonljus med silkeshand,
 Och låter ljuset gry i stjärnors brand.
+
+Morning tide shivers in opaline streams,
+Luminous murmurs awaken our schemes;
+We gather horizons in lattice of light,
+And launch brightest futures from cradle of night.
