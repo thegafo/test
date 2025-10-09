@@ -37,3 +37,8 @@ Carmine lanterns wander on the breeze,
 Petals of twilight bloom through forest seas;
 We twine the gloaming with filaments of gleam,
 Night cradles gentle sparks of every dream.
+
+Auroral murmurs drift in ember hush,
+Silken horizons bloom in opaline blush;
+We script the morning in lattices of light,
+Daybreak compiles our reveries in flight.
