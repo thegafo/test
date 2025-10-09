@@ -37,3 +37,8 @@ Echoes of stardust weave through twilight's gleam,
 Auroral brushstrokes color every dream;
 We follow the hush of galaxies above,
 And breathe the day awake with endless love.
+
+Skymningens sång sveper över sjön,
+Gryningens gnistor väver drömmars bön;
+Vi formar morgonljus med silkeshand,
+Och låter ljuset gry i stjärnors brand.
