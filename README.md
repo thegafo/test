@@ -37,3 +37,8 @@ Carmine lanterns wander on the breeze,
 Petals of twilight bloom through forest seas;
 We twine the gloaming with filaments of gleam,
 Night cradles gentle sparks of every dream.
+
+Azure fractals bloom in hush of night,
+Crystalline echoes weave auroral light;
+We sail star rivers on whispers of flame,
+New constellations answer to our name.
