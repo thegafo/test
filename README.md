@@ -47,3 +47,8 @@ Opaline zephyrs lace the sleepy skies,
 Shorelight auroras bloom where silence lies;
 We shape the twilight with chords of silver sighs,
 Dawn folds its wings around our kindred eyes.
+
+Crimson halos drift upon the dune,
+Whispers of velvet serenade the moon;
+We carve the midnight with lanterns spun in tune,
+Stars braid our vows in constellated rune.
