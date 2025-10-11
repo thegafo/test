@@ -52,3 +52,4 @@ Crimson halos drift upon the dune,
 Whispers of velvet serenade the moon;
 We carve the midnight with lanterns spun in tune,
 Stars braid our vows in constellated rune.
+\nWhispers chase the mornings gentle breath,nVeils of shadow bow to lights bequeath;\nWe weave the daybreak in threads of gold,\nPromise dawns in stories yet untold.\n
