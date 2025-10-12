@@ -18,7 +18,7 @@ Optional flags:
   -p PROMPT             Text prompt to guide video generation, defaults to none.
 
 Environment:
-  SORA_API_KEY must be set with your API key.
+  OPENAI_API_KEY must be set with your API key.
 USAGE
 }
 
@@ -56,8 +56,8 @@ while getopts ":r:d:p:h" opt; do
   esac
 done
 
-if [[ -z ${SORA_API_KEY:-} ]]; then
-  echo "Error: SORA_API_KEY environment variable is not set." >&2
+if [[ -z ${OPENAI_API_KEY:-} ]]; then
+  echo "Error: OPENAI_API_KEY environment variable is not set." >&2
   exit 1
 fi
 
@@ -87,7 +87,6 @@ PYCODE
 )
 
 curl -X POST "https://api.sora.com/v1/videos" \
-  -H "Authorization: Bearer ${SORA_API_KEY}" \
+  -H "Authorization: Bearer ${OPENAI_API_KEY}" \
   -H "Content-Type: application/json" \
   -d "${payload}"
-
