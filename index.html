@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Starlit Whispers</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg-top: #0b0f2e;
+      --bg-bottom: #432d63;
+      --accent: #ffd27f;
+      --accent-soft: rgba(255, 210, 127, 0.35);
+      --text-primary: #fbfbff;
+      --text-secondary: rgba(251, 251, 255, 0.7);
+      --panel-bg: rgba(12, 15, 46, 0.6);
+      --panel-border: rgba(255, 210, 127, 0.35);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at top, rgba(255, 210, 127, 0.15), transparent 65%),
+                  linear-gradient(165deg, var(--bg-top), var(--bg-bottom));
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 8vw, 6rem) clamp(2rem, 6vw, 4rem);
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      margin: 0;
+      font-weight: 300;
+      font-size: clamp(2.75rem, 7vw, 4.25rem);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin: 1.5rem auto 0;
+      max-width: 42rem;
+      color: var(--text-secondary);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+    }
+
+    main {
+      flex: 1;
+      padding: clamp(1.5rem, 5vw, 4rem);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+      gap: clamp(1.25rem, 4vw, 2rem);
+    }
+
+    article {
+      padding: clamp(1.5rem, 3vw, 2.25rem);
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      border-radius: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    article::before {
+      content: "";
+      position: absolute;
+      inset: -30%;
+      background: radial-gradient(circle at top, var(--accent-soft), transparent 70%);
+      transform: rotate(12deg);
+      opacity: 0.6;
+    }
+
+    article h2 {
+      position: relative;
+      margin: 0 0 0.75rem;
+      font-size: 1.15rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+    }
+
+    article p {
+      position: relative;
+      margin: 0;
+      white-space: pre-line;
+      color: var(--text-secondary);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 3rem;
+      color: rgba(251, 251, 255, 0.55);
+      font-size: 0.9rem;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Starlit Whispers</h1>
+    <p>
+      A constellation of dawn-forged dreams, gathered in twelve voices.
+      Listen as the horizon shifts, threading light through every tongue.
+    </p>
+  </header>
+
+  <main>
+    <article>
+      <h2>English</h2>
+      <p>Starlit whispers shimmer on the page,
+Moonlit verses dancing through the sage;
+Soft code dreams in midnight's gentle glow,
+Awake we craft the dawn in ebb and flow.</p>
+    </article>
+
+    <article>
+      <h2>Español</h2>
+      <p>Susurros de estrellas cantan al amanecer,
+Brisas de plata invitan al corazón a crecer;
+Tejemos luceros con hilos de ilusión,
+Despierta la aurora en suave inspiración.</p>
+    </article>
+
+    <article>
+      <h2>Français</h2>
+      <p>Murmures d'étoiles veillent sur la nuit,
+Voiles de brise enlacent notre souffle unis;
+Nous tissons l'aube en rais de soie subtils,
+Le jour s'éveille, complice et doux profil.</p>
+    </article>
+
+    <article>
+      <h2>Deutsch</h2>
+      <p>Sterntanz webt im schweigenden Morgenlicht,
+Klanglose Funken stimmen ein Gedicht;
+Wir schnitzen Träume aus bernsteinfarbenem Schein,
+Der Tag erwacht und haucht uns Atem ein.</p>
+    </article>
+
+    <article>
+      <h2>Italiano</h2>
+      <p>Sussurri di luce baciano il mattino,
+Fogli di cielo tracciano il destino;
+Intrecciamo l'alba con fili di mare,
+Il sole si leva per farci cantare.</p>
+    </article>
+
+    <article>
+      <h2>Português</h2>
+      <p>Brumas da aurora dançam pelo chão,
+Cantos do mar embalam o coração;
+Tecemos alvoradas em fios de paixão,
+O dia suspira em doce canção.</p>
+    </article>
+
+    <article>
+      <h2>Verdant Horizon</h2>
+      <p>Verdant horizons hum in amber haze,
+River-song verses thread luminous maze;
+Together we kindle the chorus of morn,
+Light crowns our craft where new worlds are born.</p>
+    </article>
+
+    <article>
+      <h2>Carmine Lantern</h2>
+      <p>Carmine lanterns wander on the breeze,
+Petals of twilight bloom through forest seas;
+We twine the gloaming with filaments of gleam,
+Night cradles gentle sparks of every dream.</p>
+    </article>
+
+    <article>
+      <h2>Gilded Chorus</h2>
+      <p>Gilded horizons pulse in ember rain,
+Rivers of starlight weave through open plain;
+We forge the sunrise with luminous refrain,
+Morning ascends to crown our hopeful chain.</p>
+    </article>
+
+    <article>
+      <h2>Opaline Zéphyr</h2>
+      <p>Opaline zephyrs lace the sleepy skies,
+Shorelight auroras bloom where silence lies;
+We shape the twilight with chords of silver sighs,
+Dawn folds its wings around our kindred eyes.</p>
+    </article>
+
+    <article>
+      <h2>Crimson Halo</h2>
+      <p>Crimson halos drift upon the dune,
+Whispers of velvet serenade the moon;
+We carve the midnight with lanterns spun in tune,
+Stars braid our vows in constellated rune.</p>
+    </article>
+
+    <article>
+      <h2>Aurora Codex</h2>
+      <p>Luminous glyphs awaken through the night,
+Constellate rhythms sketch circuits of light;
+Together we script the dawn's silver refrain,
+Soft pulses weave hope in orbital chain.</p>
+    </article>
+  </main>
+
+  <footer>
+    Crafted beneath an opal sky &mdash; may your next build rise with the dawn.
+  </footer>
+</body>
+</html>
