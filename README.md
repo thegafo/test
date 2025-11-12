@@ -28,6 +28,16 @@ Cantos do mar embalam o coração;
 Tecemos alvoradas em fios de paixão,
 O dia suspira em doce canção.
 
+星明かりの風が路を照らし、
+朝露の詩が心を潤す、
+静かな鼓動が時を織り上げ、
+新たな光が掌に宿る。
+
+별빛 바람이 새벽 숲을 감싸고,
+은하의 숨결이 마음을 흔들며,
+고요한 노래가 빛의 실을 엮어,
+새날의 약속이 두 손에 피어난다.
+
 Verdant horizons hum in amber haze,
 River-song verses thread luminous maze;
 Together we kindle the chorus of morn,
